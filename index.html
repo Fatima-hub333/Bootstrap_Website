@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Bootstrap Website</title>
 </head>
 <body>
 <heaer>
-  <nav class="navbar navbar-expand-sm bg-light navbar-dark py-4 border">
+  <nav class="navbar navbar-expand-lg bg-light navbar-dark py-4 border fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand text-body" href="#">ZenBlog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <button class="navbar-toggler navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
-        <ul class="navbar-nav ">
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link text-body" href="#">Blog</a>
           </li>
@@ -39,15 +40,15 @@
             <a class="nav-link text-body" href="#">Contact</a>
           </li>
         </ul>
-        
+        <ul class="navbar-nav sm-icons text-body">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-facebook" style="font-size: 1rem; color: black;"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-twitter" style="font-size: 1rem; color: black;"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-linkedin" style="font-size: 1rem; color: black;"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-github" style="font-size: 1rem; color: black;"></i></a></li>
+      </ul>
       </div>
     </div>
-      <ul class="navbar-nav sm-icons text-body">
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-facebook" style="font-size: 1rem; color: black;"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-twitter" style="font-size: 1rem; color: black;"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-linkedin" style="font-size: 1rem; color: black;"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-github" style="font-size: 1rem; color: black;"></i></a></li>
-    </ul>
+      
   </nav>
 </heaer>
 
@@ -104,7 +105,85 @@
   </button>
 </div>
 
+<!-- Content Section -->
+<div class="container-fluid mt-5 d-flex mx-auto">
+  <div class="row ">
+    <div class="col-md-3 border-end">
+      <div class="card">
+        <img class="card-img-top w-100" src="images/post-landscape-1.jpg" alt="Dog News">
+        <div class="card-body">
+          <h1 class="card-title text-body"> 11 Work From Home Part-Time Jobs You Can Do Now</h1>
+          <p class="card-text mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus exercitationem? Nihil tempore odit ab minus eveniet praesentium, similique blanditiis molestiae ut saepe perspiciatis officia nemo, eos quae cumque. Accusamus fugiat architecto rerum animi atque eveniet, quo, praesentium dignissimos</p>
+        </div>
+        <div class="d-flex align-items-center gap-3 ms-3">
+          <div class="photo" style="width: 50px;">
+            <img src="images/person-1.jpg" alt="Author" class="img-fluid rounded-circle">
+          </div>
+          <div class="name">
+            <h4 class="m-0 p-0 text-start">Cameron Williamson</h4>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-md-3 border-end d-flex align-items-center flex-column">
+      <!-- 1st card -->
+      <div class="card border-0">
+        <img class="card-img-top w-100" src="images/post-landscape-2.jpg" alt="Dog News">
+        <div class="card-body">
+          <div class="post-meta">
+            <span class="date">SPORT</span>
+            <span class="mx-1">.</span>
+            <span>JULY 5TH '22</span>
+          </div>
+          <h4 class="card-title text-body"> Let’s Get Back to Work, New York</h4>
+        </div>
+      </div>
+      <!-- 2nd card -->
+      <div class="card border-0">
+        <img class="card-img-top w-100" src="images/post-landscape-5.jpg" alt="Dog News">
+        <div class="card-body">
+          <div class="post-meta">
+            <span class="date">FOOD</span>
+            <span class="mx-1">.</span>
+            <span>JULY 7TH '22</span>
+          </div>
+          <h4 class="card-title text-body"> How to Avoid Distraction and Stay Focused During Video Calls?</h4>
+        </div>
+      </div>
+      <!-- 3rd card -->
+      <div class="card border-0">
+        <img class="card-img-top w-100" src="images/post-landscape-7.jpg" alt="Dog News">
+        <div class="card-body">
+          <div class="post-meta">
+            <span class="date">DESIGN</span>
+            <span class="mx-1">.</span>
+            <span>JULY 7TH '22</span>
+          </div>
+          <h4 class="card-title text-body"> Why Craigslist Tampa Is One of The Most Interesting Places On the Web?</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 border-end d-flex justify-content-center">
+      <div class="card border-0" style="width: 300px">
+        <img class="card-img-top w-100" src="images/post-landscape-2.jpg" alt="Dog News">
+        <div class="card-body">
+          <div class="post-meta">
+            <span class="date">Sport</span>
+            <span class="mx-1">.</span>
+            <span>JULY 5TH '22</span>
+          </div>
+          <h3 class="card-title text-body"> Let’s Get Back to Work, New York</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+
+    </div>
+  </div>
+</div>
 
 
 
