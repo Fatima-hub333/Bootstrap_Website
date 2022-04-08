@@ -10,6 +10,12 @@ This website is made from Bootstrap. Bootstrap compenents used in this website a
 - Cards
 - img properties
 - utilities
+
+![screenshot](images/Boostrap Website.png)
+
+## [LiveDemo] 
+(https://fatima-hub333.github.io/Bootstrap_Website/)
+
 ## Built With
 
 - HTML, Bootsrap
