@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-You can use the [editor on GitHub](https://github.com/Fatima-hub333/Bootstrap_Website/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Portfolio
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> Portfolio: setup and mobile version skeleton.
 
-### Markdown
+This website is made from Bootstrap. Bootstrap compenents used in this website are;
+- Navbar
+- Sidebar
+- Cards
+- img properties
+- utilities
+## Built With
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- HTML, Bootsrap
+- Stylelint, Web Hint, Lighthouse
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Getting Started
+To get a local copy up and running, follow the steps in Setup below.
 
-- Bulleted
-- List
+### Prerequisites
+Basic knowledge of HTML, CSS.
 
-1. Numbered
-2. List
+### Setup
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-**Bold** and _Italic_ and `Code` text
+[Download the ZIP from this location](https://github.com/Fatima-hub333/Portfolio_Mobile_Version_Skeleton/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-[Link](url) and ![Image](src)
+```bash
+git clone https://github.com/Fatima-hub333/Portfolio_Mobile_Version_Skeleton.git
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/).
 
-### Jekyll Themes
+- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fatima-hub333/Bootstrap_Website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Install
 
-### Support or Contact
+The following tools help make easier to work with sample code.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+
+## Authors
+
+👤 **Fatima Zahir**
+
+- GitHub: [@githubhandle](https://github.com/Fatima-hub333)
+- Twitter: [@twitterhandle](https://twitter.com/Fatima_developr)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/full-stack-webdeveloper-181583234/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Fatima-hub333/Portfolio_Mobile_Version_Skeleton-1/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
