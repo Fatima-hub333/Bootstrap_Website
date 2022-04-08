@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Portfolio: setup and mobile version skeleton.
+> Bootsrap Website
 
 This website is made from Bootstrap. Bootstrap compenents used in this website are;
 - Navbar
