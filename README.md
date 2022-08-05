@@ -4,7 +4,7 @@
 
 > Bootsrap Website
 
-This website is made from Bootstrap. Bootstrap compenents used in this website are;
+This website is made from Bootstrap. Bootstrap components used in this website are;
 - Navbar
 - Sidebar
 - Cards
